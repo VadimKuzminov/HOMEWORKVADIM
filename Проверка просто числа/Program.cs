@@ -1,7 +1,7 @@
 ﻿bool prostoe = true;
 Console.WriteLine("введите число:");
-double n = double.Parse(Console.ReadLine());
-double i = 2;
+int n = int.Parse(Console.ReadLine());
+int i = 2;
 while (i <= n - 1)
 {
     if (n % i == 0)
