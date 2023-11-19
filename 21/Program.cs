@@ -11,6 +11,7 @@ for (int i = 0; i < Cards; i++)
     Console.WriteLine($"{name} введите пожалуйста номинал Вашей карты:");
     var Nominal = Console.ReadLine().ToLower();
 
+
     switch (Nominal)
     {
         case "2":
