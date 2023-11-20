@@ -18,6 +18,5 @@ while (i <= n - 1)
         Console.WriteLine("число простое");
         break;
     }
-    i++;
 }
 Console.ReadKey();
